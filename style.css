@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+a {
+	color: white;
+	text-decoration-color: yellow;
+}
+
+body {
+	background-color: RGB(3,22,52);
+	display: flex;
+	justify-content: center;
+	padding-top: 22vh;
+}
+
+div {
+	padding: 20px 70px 40px 70px;
+	width: 50%;
+	display: grid;
+	justify-content: center;
+	border: 5px double white;
+}
+
+img {
+	width: 200px;
+	margin: auto;
+}
+
+p {
+	margin-top: 20px;
+	font-size: 30px;
+	color: white;
+	text-align: justify;
+	line-height: 40px;
+}
+
+@media screen and (max-width: 730px){
+	body {
+		padding-top: 3vh;
+	}
+
+	div {
+		padding: 30px 80px 25px 80px;
+	}
+}
