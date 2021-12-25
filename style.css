@@ -32,7 +32,8 @@ a:hover {
 	background: #F3F3FF;
 	border-radius: 46px;
 	width: 65%;
-	height: 90vh;
+	min-height: 90vh;
+	height: auto;
 	margin: auto;
 	margin-top: 5vh;
 	padding: 0px 10%;
@@ -74,6 +75,7 @@ p {
 
 .mid-div hr {
 	margin: 13px auto;
+	border: none;
 	border-top: solid 3px #FAAF3A;
 	width: 20%;
 }
