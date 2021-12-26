@@ -4,22 +4,40 @@
 	font-family: "Montserrat", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 body {
 	background-color: RGB(3,22,52);
 }
 
 a {
 	color: #4C4C4C;
+	text-decoration: none;
+}
+
+a:hover {
+	color: RGB(3,22,52);
 }
 
 .back-div {
 	background: #F3F3FF;
 	border-radius: 46px;
 	width: 65%;
-	height: 90vh;
+	min-height: 90vh;
+	height: auto;
 	margin: auto;
 	margin-top: 5vh;
 	padding: 0px 10%;
+	display: grid;
 }
 
 p {
@@ -33,17 +51,19 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: end;
-	height: 300px;
+	height: auto;
+	min-height: 260px;
 	width: 100%;
 }
 
 .img-div img {
-	width: 23%;
-	min-width: 150px;
+	width: 25%;
+	min-width: 200px;
 }
 
 .mid-div {	
 	display: flex;
+	text-align: center;
 	width: 100%;
 	height: auto;
 	margin-top: 40px;
@@ -54,9 +74,10 @@ p {
 }
 
 .mid-div hr {
-	margin: 20px 0;
+	margin: 13px auto;
+	border: none;
 	border-top: solid 3px #FAAF3A;
-	width: 35%;
+	width: 20%;
 }
 
 .mid-div a {
@@ -81,36 +102,67 @@ p {
 }
 
 .end-div h4 { 
-	font-size: 24px;
+	font-size: 28px;
 	margin-bottom: 10px;
 }
 
 .end-div img {
-	margin-right: 30px;
+	margin-right: 20px;
 }
 
 .end-div-bot {
 	display: flex;
 }
 
+.end-div-bot a {
+	font-weight: 700;
+	font-size: 18px;
+}
+
 .end-div-bot div {
-	margin: auto;
+	margin: 15px auto;
+	display: flex;
+	align-items: center;
 }
 
-.end-div-bot div:nth-child(1) {
-	display: flex;
-	justify-content: flex-start;
-	margin: 0;
-}
+@media screen and (max-width: 920px) {
+	html {
+		zoom: 0.8;
+	}
 
-.end-div-bot div:nth-child(2) {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-}
+	p {
+		margin-top: 30px;
+		font-size: 28px;
+	}
 
-.end-div-bot div:nth-child(3) {
-	display: flex;
-	justify-content: flex-end;
-	margin: 0;
+	.mid-div {
+		display: grid;
+		margin: 40px 0;
+	}
+
+	.mid-div-right, .mid-div-left {
+		width: 100%;
+	}
+
+	.mid-div-right {
+		margin-top: 35px;
+		margin-left: 0;
+	}
+
+	.back-div {
+		height: auto;
+	}
+
+	.end-div {
+		margin: 20px auto;
+	}
+
+	.end-div-bot {
+		display: grid;
+	}
+
+	.end-div-bot div:nth-child(3) img {
+		width: 40px;
+		height: 40px;
+	}
 }
