@@ -32,9 +32,10 @@ a:hover {
 	background: white;
 	border-radius: 46px;
 	width: 65%;
-	min-height: 90vh;
+	min-height: 88vh;
 	height: auto;
-	margin: 5vh auto;
+	margin: auto;
+	margin-top: 5vh;
 	padding: 0px 10%;
 	display: grid;
 }
@@ -51,14 +52,14 @@ p {
 	justify-content: center;
 	align-items: end;
 	height: auto;
-	min-height: 260px;
+	min-height: 220px;
 	width: 100%;
 }
 
 .img-div img {
 	width: 18%;
 	min-width: 180px;
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 }
 
 .mid-div {	
@@ -97,13 +98,13 @@ p {
 
 .end-div {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 30px;
 	text-align: center;
 }
 
 .end-div h4 { 
 	font-size: 28px;
-	margin-bottom: 10px;
+	margin-bottom: 4px;
 }
 
 .end-div img {

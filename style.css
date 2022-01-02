@@ -32,7 +32,7 @@ a:hover {
 	background: #F3F3FF;
 	border-radius: 46px;
 	width: 65%;
-	min-height: 90vh;
+	min-height: 88vh;
 	height: auto;
 	margin: auto;
 	margin-top: 5vh;
@@ -52,12 +52,12 @@ p {
 	justify-content: center;
 	align-items: end;
 	height: auto;
-	min-height: 260px;
+	min-height: 250px;
 	width: 100%;
 }
 
 .img-div img {
-	width: 25%;
+	width: 23%;
 	min-width: 200px;
 }
 
@@ -97,7 +97,7 @@ p {
 
 .end-div {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 40px;
 	text-align: center;
 }
 
