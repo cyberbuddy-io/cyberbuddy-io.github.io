@@ -53,5 +53,29 @@
 		</div>
 	</div>
 	<p style="font-size: 16px;color: grey;margin: 15px;">Made by Team <a style="color: darkgrey;" href="https://cyberbuddy.io" target="_blank">Cyberbuddy</a></p>
+	
+	<script type="module">
+		// Import the functions you need from the SDKs you need
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
+		import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
+		// TODO: Add SDKs for Firebase products that you want to use
+		// https://firebase.google.com/docs/web/setup#available-libraries
+
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		const firebaseConfig = {
+		apiKey: "AIzaSyDScbf_Ee5sWPtrNioXAFGHDy_rYKAEFsk",
+		authDomain: "cyberbuddy-io.firebaseapp.com",
+		projectId: "cyberbuddy-io",
+		storageBucket: "cyberbuddy-io.appspot.com",
+		messagingSenderId: "983745723845",
+		appId: "1:983745723845:web:b308ecdf1b446cdcf81fac",
+		measurementId: "G-0R15WNSGQZ"
+		};
+
+		// Initialize Firebase
+		const app = initializeApp(firebaseConfig);
+		const analytics = getAnalytics(app);
+	</script>
 </body>
 </html>
