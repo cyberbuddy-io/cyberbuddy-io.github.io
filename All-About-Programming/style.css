@@ -42,7 +42,7 @@ a:hover {
 
 p {
 	font-weight: 500;
-	font-size: 32px;
+	font-size: 26px;
 	margin-top: 20px;
 	text-align: center;
 }
@@ -110,6 +110,12 @@ p {
 
 .end-div img {
 	margin-right: 20px;
+}
+
+.end-div i {
+	margin-right: 20px;
+	font-size: 40px;
+	color: orangered;
 }
 
 .end-div-bot {
