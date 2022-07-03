@@ -86,14 +86,15 @@ p {
 	font-size: 22px;
 }
 
-.mid-div-left {
-	width: 50%;
-	margin-right: 50px;
+.mid-div-content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
 }
 
-.mid-div-right {
-	width: 50%;
-	margin-left: 50px;
+.mid-div-content i {
+	margin-right: 10px;
 }
 
 .end-div {
